@@ -1,3 +1,4 @@
+// Zoid
 !function(root, factory) {
     "object" == typeof exports && "object" == typeof module ? module.exports = factory() : "function" == typeof define && define.amd ? define("zoid", [], factory) : "object" == typeof exports ? exports.zoid = factory() : root.zoid = factory();
 }("undefined" != typeof self ? self : this, function() {
